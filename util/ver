@@ -1,7 +1,7 @@
 #!/bin/bash
 
 main_ver=1.0.10
-minor_ver=48
+minor_ver=48.mpto
 version=$main_ver.$minor_ver
 echo $version
 
