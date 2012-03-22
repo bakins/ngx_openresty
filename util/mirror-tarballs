@@ -199,7 +199,7 @@ cd lua-$ver/src || exit 1
 #patch -p0 < ../../patch-lua-$ver-4 || exit 1
 cd ../.. || exit 1
 
-rm "patch-lua-$ver-4" || exit 1
+#rm "patch-lua-$ver-4" || exit 1
 
 cp $root/patches/lua-$ver-makefile_install_fix.patch lua-makefile-fix.patch || exit 1
 
